@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">shop</string>
+    <string name="description">apple for 20 rupees</string>
+    <string name="description2">get cheese for 30 rupees</string>
+    <string name="description3">get donut for 50 rupees</string>
+    <string name="description4">get ice cream for 60 rupees</string>
+    <string name="description5">get froyo for 70 rupees</string>
+    <string name="description6">get soup for 80 rupees</string>
+    <string name="description7">get rolls and cocacola for 80 rupees</string>
+    <string name="add_button">Add_Button</string>
+    <string name="butn">see_nearby_shop</string>
+</resources>

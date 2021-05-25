@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="76dp"
+        android:contentDescription="@string/description"
+        android:onClick="tofirst"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/apple" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="84dp"
+        android:layout_height="95dp"
+        android:contentDescription="@string/description2"
+        android:onClick="tofirst"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/cheese" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:contentDescription="@string/description3"
+        android:onClick="tofirst"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/donut_circle" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="87dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/description4"
+        android:onClick="tofirst"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/froyo_circle" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/description5"
+        android:onClick="tofirst"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/icecream_circle" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="88dp"
+        android:layout_height="76dp"
+        android:contentDescription="@string/description6"
+        android:onClick="tofirst"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/potemoji" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="87dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/description7"
+        android:onClick="tofirst"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/streetfood" />
+</android.support.constraint.ConstraintLayout>
